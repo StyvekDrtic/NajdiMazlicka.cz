@@ -37,22 +37,14 @@ palmmedia.co
 
   <link rel="stylesheet" href="assets/css/main.css">
 
-  <link rel="apple-touch-icon" sizes="57x57" href="favicon/apple-icon-57x57.png">
-  <link rel="apple-touch-icon" sizes="60x60" href="favicon/apple-icon-60x60.png">
-  <link rel="apple-touch-icon" sizes="72x72" href="favicon/apple-icon-72x72.png">
-  <link rel="apple-touch-icon" sizes="76x76" href="favicon/apple-icon-76x76.png">
-  <link rel="apple-touch-icon" sizes="114x114" href="favicon/apple-icon-114x114.png">
-  <link rel="apple-touch-icon" sizes="120x120" href="favicon/apple-icon-120x120.png">
-  <link rel="apple-touch-icon" sizes="144x144" href="favicon/apple-icon-144x144.png">
-  <link rel="apple-touch-icon" sizes="152x152" href="favicon/apple-icon-152x152.png">
-  <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-icon-180x180.png">
-  <link rel="icon" type="image/png" sizes="192x192"  href="favicon/android-icon-192x192.png">
-  <link rel="icon" type="image/png" sizes="32x32" href="favicon/favicon-32x32.png">
-  <link rel="icon" type="image/png" sizes="96x96" href="favicon/favicon-96x96.png">
-  <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
-  <link rel="manifest" href="favicon/manifest.json">
-  <meta name="msapplication-TileColor" content="#ffffff">
-  <meta name="msapplication-TileImage" content="favicon/ms-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon/favicon-16x16.png">
+  <link rel="manifest" href="/favicon/site.webmanifest">
+  <link rel="mask-icon" href="/favicon/safari-pinned-tab.svg" color="#ff3c21">
+  <link rel="shortcut icon" href="/favicon/favicon.ico">
+  <meta name="msapplication-TileColor" content="#ff0000">
+  <meta name="msapplication-config" content="/favicon/browserconfig.xml">
   <meta name="theme-color" content="#ffffff">
 </head>
 
@@ -60,14 +52,196 @@ palmmedia.co
   <body>
 
     <header>
-  
+  <a href="/" class="logo">
+    <img src="assets/img/logo.png" alt="logo Najdi Mazlíčka">
+  </a>
+  <nav>
+    <ul>
+      <li>
+        <a href="#jaktofunguje">Jak to funguje?</a>
+      </li>
+      <li>
+        <a href="#koliktostoji">Kolik to stojí?</a>
+      </li>
+      <li>
+        <a href="#onas">O nás</a>
+      </li>
+      <li>
+        <a href="#stastnekonce">Šťastné konce</a>
+      </li>
+      <li>
+        <a href="#socialnisite">Sociální sítě</a>
+      </li>
+      <li>
+        <img src="assets/img/telefon.png" alt="telefon">
+        <a href="tel:+420605176305">+420 605 176 305</a>
+      </li>
+    </ul>
+  </nav>
+  <a class="menuButton" href="#">
+    <img src="assets/img/menu.png" alt="menu">
+  </a>
 </header>
 
 
-    <h1>Nazdar!</h1>
+    <section class="jumbotron">
+  <div class="jumboText">
+    <h1>Ztratil se vám domácí mazlíček?</h1>
+    <h2>Náš tým marketérů vám ho pomůže nájít s pomocí detailně cílených Faceboom kampaní.</h2>
+  </div>
+  <div class="video">
+    <img src="assets/img/video.png" alt="videoPlaceholder">
+  </div>
+</section>
+
+<section id="jaktofunguje">
+  <h2>Jak to funguje?</h2>
+  <div class="bublina">
+    <div class="prvniCast">
+      <ul>
+        <li>
+          <img src="assets/img/kocka.png" alt="ztracené zvíře">
+          <span>Ztratil se vám mazlíček</span>
+        </li>
+        <li>
+          <img src="assets/img/iphone.png" alt="registrace ztraceného zvířete">
+          <span>Registrujete u nás ztrátu</span>
+        </li>
+        <li>
+          <img src="assets/img/graf.png" alt="hledání ztraceného zvířete">
+          <span>Sputíme cílenou kampaň s fotkami vašeho mazlíčka</span>
+        </li>
+        <li>
+          <img src="assets/img/tada.png" alt="nález ztraceného zvířete">
+          <span>Mazlíčka vám najdeme!</span>
+        </li>
+      </ul>
+      <a href="#" class="registrovatButton">Registrovat ztrátu</a>
+    </div>
+    <div class="druhaCast">
+      <img src="assets/img/porovnani.png" alt="porovnání Najdi Mazlíčka a plagátů">
+    </div>
+  </div>
+</section>
+
+<section id="koliktostoji">
+  <h2>Kolik to stojí</h2>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum quam rhoncus, semper est.</p>
+  <ul>
+    <li>
+      <div class="balicek">
+        <span class="malyNadpis">BALÍČEK</span>
+        <h3>Vesnice</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum quam rhoncus, semper est vitae.</p>
+        <span class="cena">2 900 <span>Kč</span></span>
+        <a href="#">
+          <div class="registrace">
+            <span>Registrovat ztrátu</span>
+          </div>
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="balicek">
+        <span class="malyNadpis">BALÍČEK</span>
+        <h3>Malé město</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum quam rhoncus, semper est vitae.</p>
+        <span class="cena">5 900 <span>Kč</span></span>
+        <a href="#">
+          <div class="registrace">
+            <span>Registrovat ztrátu</span>
+          </div>
+        </a>
+      </div>
+    </li>
+    <li>
+      <div class="balicek">
+        <span class="malyNadpis">BALÍČEK</span>
+        <h3>Velké město</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas vestibulum quam rhoncus, semper est vitae.</p>
+        <span class="cena">7 900 <span>Kč</span></span>
+        <a href="#">
+          <div class="registrace">
+            <span>Registrovat ztrátu</span>
+          </div>
+        </a>
+      </div>
+    </li>
+  </ul>
+</section>
+
+<section id="onas">
+  <h2>O nás</h2>
+  <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam erat volutpat. Nulla accumsan, elit sit amet varius semper, nulla mauris mollis.</p>
+  <div class="team">
+    <ul>
+      <li>
+        <img src="assets/img/profilovka.png" alt="Jiří Štěpánek, zakladatel NajdiMazlíčka">
+        <h3>Jiří Štěpánek</h3>
+        <h4>Zakladatel</h4>
+      </li>
+      <li>
+        <img src="assets/img/profilovka.png" alt="Jiří Štěpánek, zakladatel NajdiMazlíčka">
+        <h3>Barbora Mléčná</h3>
+        <h4>Facebook reklamy</h4>
+      </li>
+      <li>
+        <img src="assets/img/profilovka.png" alt="Jiří Štěpánek, zakladatel NajdiMazlíčka">
+        <h3>Tomáš Novotný</h3>
+        <h4>Facebook reklamy</h4>
+      </li>
+      <li>
+        <img src="assets/img/profilovka.png" alt="Jiří Štěpánek, zakladatel NajdiMazlíčka">
+        <h3>Lucka Ovocná</h3>
+        <h4>Facebook reklamy</h4>
+      </li>
+    </ul>
+  </div>
+  <a href="https://www.patreon.com/najdimazlicka">Podpořte nás</a>
+</section>
+
+<section id="stastnekonce">
+  <h2>Šťastné konce</h2>
+  <ul>
+    <li>
+      <img src="" alt="">
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam erat volutpat. Nulla accumsan, elit sit amet varius semper.</p>
+      <p class="podpis">- Jana Novotná</p>
+    </li>
+    <li>
+      <img src="" alt="">
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam erat volutpat. Nulla accumsan, elit sit amet varius semper.</p>
+      <p class="podpis">- Jana Novotná</p>
+    </li>
+    <li>
+      <img src="" alt="">
+      <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aliquam erat volutpat. Nulla accumsan, elit sit amet varius semper.</p>
+      <p class="podpis">- Jana Novotná</p>
+    </li>
+  </ul>
+</section>
 
 
     <footer>
+  <div class="prvniCast">
+    <p>Sdílejte tento projekt a</p>
+    <p class="hashtag">#zachranteKamarada</p>
+    <div class="socialMedia" id="socialnisite">
+      <a href="https://instagram.com/najdimazlicka">
+        <img src="assets/img/instagram.png" alt="Instagram NajdiMazlíčka">
+      </a>
+      <a href="https://www.facebook.com/najdimazlicka.cz">
+        <img src="assets/img/facebook.png" alt="Facebook NajdiMazlíčka">
+      </a>
+      <a href="https://www.youtube.com/channel/UCTWLg7f9lhBFGqO8i1rkt5Q">
+        <img src="assets/img/youtube.png" alt="Youtube NajdiMazlíčka">
+      </a>
+    </div>
+  </div>
+  <div class="druhaCast">
+    <p>Copyright © 2019 PalmMedia s.r.o.</p>
+    <a href="/obchodnipodminky">Obchodní podmínky a zásady ochrany osobních údajů</a>
+  </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
   <script src="assets/js/app.js"></script>
