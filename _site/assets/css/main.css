@@ -2693,27 +2693,28 @@ header {
       display: inline-block;
       vertical-align: middle; }
       .mobileHeader .navigace .logo img {
-        width: 45px; }
+        width: 40px; }
     .mobileHeader .navigace .zavritButton {
       position: absolute;
       top: 5px;
       right: 0;
       float: none; }
       .mobileHeader .navigace .zavritButton img {
-        width: 34px; }
+        width: 30px; }
   .mobileHeader ul {
     padding: 0;
     margin: 0;
-    margin-top: -30px; }
+    margin-top: -20px;
+    margin-bottom: 55px; }
     .mobileHeader ul li {
       list-style: none;
       padding: 0;
       text-align: center;
       width: 100%;
-      margin: 54px auto; }
+      margin: 40px auto; }
       .mobileHeader ul li a {
         font-family: AveBlack;
-        font-size: 17px;
+        font-size: 15px;
         color: #111111;
         letter-spacing: 2px;
         text-align: center;
