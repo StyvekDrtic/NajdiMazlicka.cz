@@ -1,6 +1,45 @@
-$(".menuButton").click(function(event) {
-  $(".mobileHeader").
+
+
+
+
+$(".menuButton").click(function() {
+  $(".mobileHeader").removeClass("fadeInDown animated").removeClass("fadeOutUp animated").addClass("animated" + ' fadeInDown');
+  $(".mobileHeader").toggle();
 });
+
+$(".zavritButton").click(function() {
+  $(".mobileHeader").removeClass("fadeOutUp animated").removeClass("fadeInDown animated").addClass("animated" + ' fadeOutUp');
+
+  setTimeout(function() {
+    $(".mobileHeader").toggle();
+  }, 1000);
+});
+
+$(".mobileHeader ul li a").click(function() {
+  $(".mobileHeader").removeClass("fadeOutUp animated").removeClass("fadeInDown animated").addClass("animated" + ' fadeOutUp');
+
+  setTimeout(function() {
+    $(".mobileHeader").toggle();
+  }, 1000);
+});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // Select all links with hashes
 $('a[href*="#"]')

@@ -1,20 +1,20 @@
 
-<svg width="100%" preserveAspectRatio="none" height="368px" viewBox="0 0 400 368" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="100%" preserveAspectRatio="none" height="874px" viewBox="0 0 400 874" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <defs>
-        <linearGradient x1="28.4895667%" y1="13.44875%" x2="81.4086332%" y2="97.9513512%" id="linearGradient-1">
+        <linearGradient x1="39.2084536%" y1="50%" x2="56.2506571%" y2="108.597001%" id="linearGradient-1">
             <stop stop-color="#FF8D55" offset="0%"></stop>
             <stop stop-color="#E9214B" offset="100%"></stop>
         </linearGradient>
-        <path d="M0,0 L400,0 L400,288.204766 L225.974422,335.013499 C208.960499,339.589839 191.039501,339.589839 174.025578,335.013499 L0,288.204766 L0,288.204766 L0,0 Z" id="path-2"></path>
-        <filter x="-5.9%" y="-6.3%" width="111.8%" height="112.7%" filterUnits="objectBoundingBox" id="filter-3">
+        <path d="M0,0 L400,0 L400,807.204766 L225.974422,854.013499 C208.960499,858.589839 191.039501,858.589839 174.025578,854.013499 L0,807.204766 L0,807.204766 L0,0 Z" id="path-2"></path>
+        <filter x="-5.9%" y="-2.5%" width="111.8%" height="105.0%" filterUnits="objectBoundingBox" id="filter-3">
             <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
             <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
             <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0547421329 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
         </filter>
     </defs>
     <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <g id="non-profit-fáze" transform="translate(0.000000, -506.000000)">
-            <g id="jak-to-funguje" transform="translate(0.000000, 519.000000)">
+        <g id="non-profit-fáze">
+            <g id="jak-to-funguje">
                 <g id="Rectangle-Copy">
                     <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
                     <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>

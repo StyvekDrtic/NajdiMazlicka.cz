@@ -30,3 +30,94 @@ header {
     display: none;
   }
 }
+
+.mobileHeader {
+  box-shadow: 0 2px 15px 0 rgba(0,0,0,0.10);
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  display: none;
+  width: 100%;
+  left: 0;
+  padding-top: 20px;
+
+  .navigace {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    position: relative;
+    display: block;
+
+    .logo {
+      display: inline-block;
+      vertical-align: middle;
+
+      img {
+        width: 45px;
+      }
+    }
+
+    .zavritButton {
+      position: absolute;
+      top: 5px;
+      right: 0;
+      float: none;
+
+      img {
+        width: 34px;
+      }
+    }
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+    margin-top: -30px;
+
+    li {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+      width: 100%;
+      margin: 54px auto;
+
+      a {
+        font-family: AveBlack;
+        font-size: 17px;
+        color: #111111;
+        letter-spacing: 2px;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        text-transform: uppercase;
+      }
+    }
+  }
+
+  .mobil {
+    margin-top: -10px;
+    width: 100%;
+    background: #F9F9F9;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px;
+
+    img {
+      width: 12px;
+      display: inline-block;
+      vertical-align: middle;
+    }
+
+    a {
+      text-align: left;
+      font-family: AveMedium;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 17px;
+      font-size: 14.69px;
+      color: #1C1C1C;
+      letter-spacing: 1.96px;
+      text-align: center;
+    }
+  }
+}

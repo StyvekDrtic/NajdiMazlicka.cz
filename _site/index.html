@@ -35,6 +35,7 @@ palmmedia.co
   <meta name="author" content="palmmedia.co">
   <meta name="language" content="cs">
 
+  <link rel="stylesheet" href="assets/css/animate.css">
   <link rel="stylesheet" href="assets/css/main.css">
 
   <link rel="apple-touch-icon" sizes="180x180" href="/favicon/apple-touch-icon.png">
@@ -51,11 +52,45 @@ palmmedia.co
 
   <body>
 
+    <div class="mobileHeader">
+  <div class="navigace">
+    <a href="/" class="logo">
+      <img src="assets/img/logo.png" alt="logo Najdi Mazlíčka">
+    </a>
+    <a class="zavritButton" href="#">
+      <img src="assets/img/zavrit.png" alt="zavřít">
+    </a>
+  </div>
+  <ul>
+    <nav>
+      <li>
+        <a href="#jaktofunguje">Jak to funguje?</a>
+      </li>
+      <li>
+        <a href="#koliktostoji">Kolik to stojí?</a>
+      </li>
+      <li>
+        <a href="#onas">O nás</a>
+      </li>
+      <li>
+        <a href="#stastnekonce">Šťastné konce</a>
+      </li>
+      <li>
+        <a href="#socialnisite">Sociální sítě</a>
+      </li>
+    </nav>
+  </ul>
+  <div class="mobil">
+    <img src="assets/img/telefon.png" alt="telefon">
+    <a href="tel:+420605176305">+420 605 176 305</a>
+  </div>
+</div>
+
     
 
-    <section class="jumbotron">
+    <section class="jumbotron wow slideInDown" data-wow-offset="300">
   <header>
-    <a href="/" class="logo">
+    <a href="/" class="logo wow fadeInLeft" data-wow-delay="0.3s">
       <img src="assets/img/logo.png" alt="logo Najdi Mazlíčka">
     </a>
     <nav>
@@ -81,16 +116,16 @@ palmmedia.co
         </li>
       </ul>
     </nav>
-    <a class="menuButton" href="#">
+    <a class="menuButton wow fadeInRight" data-wow-delay="0.3s" href="#">
       <img src="assets/img/menu.png" alt="menu">
     </a>
   </header>
 
   <div class="jumboText">
-    <h1>Ztratil se vám domácí mazlíček?</h1>
-    <h2>Náš tým marketérů vám ho pomůže nájít s pomocí detailně cílených Faceboom kampaní.</h2>
+    <h1 class="wow fadeInDown">Ztratil se vám domácí mazlíček?</h1>
+    <h2 class="wow fadeInUp" data-wow-delay="0.3s">Náš tým marketérů vám ho pomůže nájít s pomocí detailně cílených Faceboom kampaní.</h2>
   </div>
-  <div class="video">
+  <div class="video wow fadeIn" data-wow-delay="0.6s">
     <img src="assets/img/video.png" alt="videoPlaceholder">
   </div>
   <div class="konec">
@@ -121,11 +156,11 @@ palmmedia.co
 </section>
 
 <section id="jaktofunguje">
-  <h2>Jak to funguje?</h2>
+  <h2 class="wow fadeInDown">Jak to funguje?</h2>
   <div class="pozadi">
 
   </div>
-  <div class="bublina">
+  <div class="bublina wow fadeInUp">
     <div class="prvniCast">
       <ul>
         <li>
@@ -276,6 +311,10 @@ palmmedia.co
   </div>
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+  <script src="assets/js/wow.min.js"></script>
+  <script>
+  new WOW().init();
+  </script>
   <script src="assets/js/app.js"></script>
 </footer>
 

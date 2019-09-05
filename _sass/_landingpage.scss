@@ -1,7 +1,6 @@
 .jumbotron {
   background: #fff;
   position: relative;
-  pointer-events: none;
 
   .jumboText {
     h1 {
@@ -34,6 +33,8 @@
     width: calc(100% - 40px);
     margin: 0 auto;
     display: block;
+    z-index: 10;
+    position: relative;
 
     img {
       width: 100%;
@@ -53,10 +54,10 @@
 
   .pozadi {
     position: absolute;
-    top: 0;
+    top: calc(342px - 874px);
     z-index: -100;
     width: 100%;
-    height: 342px;
+    height: 874px;
     background: url("../svg/jaktofunguje.svg");
     background-size: 100% 100%;
   }

@@ -2649,6 +2649,9 @@ h1, h2, h3, h4, h5, p, span, a {
 html {
   background: #F6F6F6; }
 
+*:focus {
+  outline: none; }
+
 header {
   position: relative;
   display: block;
@@ -2670,6 +2673,74 @@ header {
       width: 34px; }
   header nav {
     display: none; }
+
+.mobileHeader {
+  box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.1);
+  position: absolute;
+  top: 0;
+  z-index: 100;
+  background: #fff;
+  display: none;
+  width: 100%;
+  left: 0;
+  padding-top: 20px; }
+  .mobileHeader .navigace {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    position: relative;
+    display: block; }
+    .mobileHeader .navigace .logo {
+      display: inline-block;
+      vertical-align: middle; }
+      .mobileHeader .navigace .logo img {
+        width: 45px; }
+    .mobileHeader .navigace .zavritButton {
+      position: absolute;
+      top: 5px;
+      right: 0;
+      float: none; }
+      .mobileHeader .navigace .zavritButton img {
+        width: 34px; }
+  .mobileHeader ul {
+    padding: 0;
+    margin: 0;
+    margin-top: -30px; }
+    .mobileHeader ul li {
+      list-style: none;
+      padding: 0;
+      text-align: center;
+      width: 100%;
+      margin: 54px auto; }
+      .mobileHeader ul li a {
+        font-family: AveBlack;
+        font-size: 17px;
+        color: #111111;
+        letter-spacing: 2px;
+        text-align: center;
+        width: 100%;
+        margin: 0 auto;
+        text-transform: uppercase; }
+  .mobileHeader .mobil {
+    margin-top: -10px;
+    width: 100%;
+    background: #F9F9F9;
+    text-align: center;
+    padding-top: 14px;
+    padding-bottom: 14px; }
+    .mobileHeader .mobil img {
+      width: 12px;
+      display: inline-block;
+      vertical-align: middle; }
+    .mobileHeader .mobil a {
+      text-align: left;
+      font-family: AveMedium;
+      display: inline-block;
+      vertical-align: middle;
+      margin-left: 17px;
+      font-size: 14.69px;
+      color: #1C1C1C;
+      letter-spacing: 1.96px;
+      text-align: center; }
 
 .footerInner {
   position: relative;
@@ -2737,8 +2808,7 @@ header {
 
 .jumbotron {
   background: #fff;
-  position: relative;
-  pointer-events: none; }
+  position: relative; }
   .jumbotron .jumboText h1 {
     font-family: AveHeavy;
     font-size: 33px;
@@ -2763,7 +2833,9 @@ header {
   .jumbotron .video {
     width: calc(100% - 40px);
     margin: 0 auto;
-    display: block; }
+    display: block;
+    z-index: 10;
+    position: relative; }
     .jumbotron .video img {
       width: 100%; }
   .jumbotron .konec {
@@ -2776,10 +2848,10 @@ header {
   padding-top: 109px; }
   #jaktofunguje .pozadi {
     position: absolute;
-    top: 0;
+    top: calc(342px - 874px);
     z-index: -100;
     width: 100%;
-    height: 342px;
+    height: 874px;
     background: url("../svg/jaktofunguje.svg");
     background-size: 100% 100%; }
   #jaktofunguje h2 {
