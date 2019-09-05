@@ -1,0 +1,391 @@
+.jumbotron {
+  background: #fff;
+  position: relative;
+  pointer-events: none;
+
+  .jumboText {
+    h1 {
+      font-family: AveHeavy;
+      font-size: 33px;
+      color: #000000;
+      letter-spacing: 0;
+      text-align: center;
+      max-width: 308px;
+      margin: 0 auto;
+      display: block;
+      margin-top: 25px;
+    }
+
+    h2 {
+      font-family: AveMedium;
+      font-size: 16px;
+      color: #949494;
+      letter-spacing: 0;
+      text-align: center;
+      max-width: 290px;
+      margin: 0 auto;
+      display: block;
+      margin-top: 20px;
+      margin-bottom: 45px;
+    }
+  }
+
+  .video {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    display: block;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  .konec {
+    width: calc(100%);
+    position: absolute;
+    bottom: calc(-110px + 1px);
+  }
+}
+
+#jaktofunguje {
+  position: relative;
+  padding-top: 109px;
+
+  .pozadi {
+    position: absolute;
+    top: 0;
+    z-index: -100;
+    width: 100%;
+    height: 342px;
+    background: url("../svg/jaktofunguje.svg");
+    background-size: 100% 100%;
+  }
+
+  h2 {
+    font-family: AveHeavy;
+    font-size: 23px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px;
+  }
+
+  .bublina {
+    background: #FFFFFF;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.10);
+    border-radius: 10px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    max-width: 360px;
+
+    .prvniCast {
+      a {
+        display: none;
+      }
+
+      ul {
+        padding: 0;
+        margin: 0;
+
+        li {
+          list-style: none;
+          display: block;
+          margin: 0 auto;
+          padding: 18px 0;
+          text-align: center;
+
+          &:first-child {
+            padding-top: 30px;
+          }
+
+          &:last-child {
+            padding-bottom: 30px;
+          }
+
+          img {
+            max-width: 40px;
+            max-height: 40px;
+            display: inline-block;
+            vertical-align: middle;
+          }
+
+          span {
+            font-family: AveMedium;
+            font-size: 19.33px;
+            color: #1C1C1C;
+            letter-spacing: 0;
+            line-height: 31.81px;
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 30px;
+            max-width: 230px;
+            text-align: left;
+          }
+        }
+      }
+    }
+
+    .druhaCast {
+      display: none;
+    }
+  }
+}
+
+#koliktostoji {
+
+  h2 {
+    font-family: AveHeavy;
+    font-size: 23px;
+    color: #151515;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+    max-width: 290px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+
+  p {
+    font-family: AveMedium;
+    font-size: 16px;
+    color: #949494;
+    letter-spacing: 0;
+    text-align: center;
+    max-width: 290px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 40px;
+  }
+
+  ul {
+    padding: 0;
+
+    li {
+      background: #FFFFFF;
+      box-shadow: 0 6px 15px 0 rgba(0,0,0,0.10);
+      border-radius: 10px;
+      list-style: none;
+      width: calc(100% - 40px);
+      margin: 0 auto;
+      max-width: 360px;
+      margin-bottom: 40px;
+
+      .malyNadpis {
+        font-family: AveBlack;
+        font-size: 12px;
+        color: #AAAAAA;
+        letter-spacing: 2.67px;
+        text-align: center;
+        width: 100%;
+        padding-top: 25px;
+        display: block;
+      }
+
+      h3 {
+        font-family: AveHeavy;
+        font-size: 29px;
+        color: #000000;
+        letter-spacing: 0;
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 20px;
+      }
+
+      p {
+        font-family: AveMedium;
+        font-size: 16px;
+        color: #949494;
+        letter-spacing: 0;
+        text-align: center;
+        width: calc(100% - 60px);
+        max-width: none;
+        margin-bottom: 20px;
+      }
+
+      .cena {
+        font-family: AveBlack;
+        font-size: 38px;
+        color: #1A1A1A;
+        letter-spacing: 0;
+        text-align: center;
+        margin: 0 auto;
+        display: block;
+        margin-bottom: 21px;
+
+        span {
+          font-size: 25px;
+          font-family: AveBlack;
+          color: #1A1A1A;
+        }
+      }
+
+      a {
+        .registrace {
+          background-image: linear-gradient(153deg, #FF8D55 0%, #E9214B 100%);
+          border-bottom-left-radius: 10px;
+          border-bottom-right-radius: 10px;
+          padding-top: 11px;
+          padding-bottom: 12px;
+
+          .registraceText {
+            font-family: AveMedium;
+            font-size: 20px;
+            color: #FFFFFF;
+            letter-spacing: 0;
+            text-align: center;
+            display: block;
+          }
+        }
+      }
+    }
+  }
+}
+
+#onas {
+  h2 {
+    margin-top: 50px;
+    font-family: AveHeavy;
+    font-size: 23px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+
+  p {
+    font-family: AveMedium;
+    font-size: 16px;
+    color: #949494;
+    letter-spacing: 0;
+    text-align: center;
+    max-width: 290px;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: calc(40px - 11px);
+  }
+
+  .team {
+    width: calc(100% - 40px + (18px * 2));
+    margin: 0 auto;
+    display: block;
+
+    ul {
+      padding: 0;
+      margin: 0;
+      text-align: center;
+
+      li {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        width: 150px;
+        margin: 11px 13px;
+        display: inline-block;
+
+        img {
+          width: 100%;
+        }
+
+        h3 {
+          font-family: AveHeavy;
+          font-size: 18.23px;
+          color: #000000;
+          letter-spacing: 0;
+          text-align: center;
+          margin-top: 20px;
+          margin-bottom: 4px;
+        }
+
+        h4 {
+          font-family: AveMediumOblique;
+          font-size: 14.58px;
+          color: #949494;
+          letter-spacing: 0;
+          text-align: center;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  a {
+    font-family: AveMedium;
+    font-size: 20px;
+    color: #151515;
+    letter-spacing: 0;
+    text-align: center;
+    background: #FFFFFF;
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.15);
+    border-radius: 11px;
+    margin: 0 auto;
+    display: block;
+    width: 200px;
+    padding-bottom: 11px;
+    padding-top: 11px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    z-index: 100;
+  }
+}
+
+#stastnekonce {
+  margin-bottom: 80px;
+
+  h2 {
+    font-family: AveHeavy;
+    font-size: 23px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 35px;
+  }
+
+  ul {
+    padding: 0;
+    margin: 0;
+
+    li {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+      width: calc(100% - 40px);
+      max-width: 360px;
+      display: block;
+      margin-bottom: 35px;
+
+      p {
+        font-family: AveMedium;
+        font-size: 16px;
+        color: #949494;
+        letter-spacing: 0;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 15px;
+      }
+
+      .podpis {
+        font-family: AveHeavy;
+        font-size: 16px;
+        color: #151515;
+        letter-spacing: 0;
+        text-align: center;
+        margin: 0;
+      }
+
+      .fotoMazlicka {
+        background: url("../img/mazlicek.png");
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        box-shadow: 0 6px 15px 0 rgba(0,0,0,0.10);
+        border-radius: 10px;
+        margin: 0 auto;
+        display: block;
+      }
+    }
+  }
+}

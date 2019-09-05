@@ -1,3 +1,87 @@
-footer {
+.footerInner {
+  position: relative;
+  z-index: 0;
 
+  .pozadi {
+    position: absolute;
+    top: -80px;
+    width: 100%;
+    height: 312px;
+    background: url("../svg/prefooter.svg");
+    background-size: 100% 100%;
+    z-index: -1;
+  }
+
+  .prvniCast {
+    p {
+      font-family: AveMedium;
+      font-size: 23px;
+      color: #848484;
+      letter-spacing: 0;
+      text-align: center;
+      margin-bottom: 10px;
+    }
+
+    .hashtag {
+      font-family: AveHeavy;
+      font-size: 33px;
+      color: #151515;
+      letter-spacing: 0;
+      text-align: center;
+      margin: 0;
+      margin-bottom: 30px;
+    }
+
+    .socialMedia {
+      text-align: center;
+      margin: 0;
+
+      a {
+        display: inline-block;
+        vertical-align: middle;
+        margin: 0 16px;
+
+        img {
+          width: 36px;
+        }
+
+        &:last-child {
+          img {
+            width: 41px;
+          }
+        }
+      }
+    }
+  }
+}
+
+.druhaCastFooter {
+  background-image: linear-gradient(180deg, #3D3D3D 0%, #1A1A1A 100%);
+  z-index: -10000;
+  padding-top: 100px;
+  width: 100%;
+
+  p {
+    font-family: AveHeavy;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 15px;
+  }
+
+  a {
+    font-family: AveMedium;
+    font-size: 13px;
+    color: #959595;
+    letter-spacing: 0;
+    text-align: center;
+    width: 182px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 40px;
+  }
 }

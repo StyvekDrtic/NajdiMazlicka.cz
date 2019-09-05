@@ -1,3 +1,32 @@
 header {
+  position: relative;
+  display: block;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  padding-top: 20px;
+  background: #fff;
 
+  .logo {
+    display: inline-block;
+    vertical-align: middle;
+
+    img {
+      width: 45px;
+    }
+  }
+
+  .menuButton {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    float: none;
+
+    img {
+      width: 34px;
+    }
+  }
+
+  nav {
+    display: none;
+  }
 }

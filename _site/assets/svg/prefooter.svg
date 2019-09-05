@@ -1,0 +1,23 @@
+
+<svg width="100%" preserveAspectRatio="none" height="312px" viewBox="0 0 400 312" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <path d="M0,0 C115.787773,20.6276803 182.621107,30.9415205 200.5,30.9415205 C218.378893,30.9415205 284.878893,20.6276803 400,0 L400,241.013342 L221.945025,281.063833 C207.495521,284.314008 192.504479,284.314008 178.054975,281.063833 L0,241.013342 L0,241.013342 L0,0 Z" id="path-1"></path>
+        <filter x="-5.9%" y="-7.5%" width="111.8%" height="115.6%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0547421329 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="profit-záze" transform="translate(0.000000, -4281.000000)">
+            <g id="footer" transform="translate(0.000000, 4293.000000)">
+                <g id="Group-21">
+                    <g id="Rectangle">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

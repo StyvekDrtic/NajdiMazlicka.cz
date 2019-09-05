@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 /**
  * 1. Set default font family to sans-serif.
@@ -2568,14 +2569,68 @@ th {
 
 fonts
 
-*****************************************
-
+*****************************************/
 @font-face {
-    font-family: "neco";
-    src: url("../fonts/GothamRounded-Book.otf");
-}
-
-*****************************************
+  font-family: "AveBlack";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-Black.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveBlackOblique";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-BlackOblique.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveBook";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-Book.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveBookOblique";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-BookOblique.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveHeavy";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-Heavy.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveHeavyOblique";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-HeavyOblique.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveLight";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-Light.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveLightOblique";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-LightOblique.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveMedium";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-Medium.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveMediumOblique";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-MediumOblique.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveOblique";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-Oblique.ttf");
+  /* propojení na umístění souboru */ }
+@font-face {
+  font-family: "AveRoman";
+  /* deklarace fontu */
+  src: url("../fonts/Avenir-Roman.ttf");
+  /* propojení na umístění souboru */ }
+/*****************************************
 
 colors
 
@@ -2586,4 +2641,392 @@ defaults
 
 *****************************************/
 h1, h2, h3, h4, h5, p, span, a {
-  font-weight: normal !important; }
+  font-weight: normal !important;
+  font-family: AveBook;
+  text-decoration: none;
+  color: #000; }
+
+html {
+  background: #F6F6F6; }
+
+header {
+  position: relative;
+  display: block;
+  width: calc(100% - 40px);
+  margin: 0 auto;
+  padding-top: 20px;
+  background: #fff; }
+  header .logo {
+    display: inline-block;
+    vertical-align: middle; }
+    header .logo img {
+      width: 45px; }
+  header .menuButton {
+    position: absolute;
+    top: 25px;
+    right: 0;
+    float: none; }
+    header .menuButton img {
+      width: 34px; }
+  header nav {
+    display: none; }
+
+.footerInner {
+  position: relative;
+  z-index: 0; }
+  .footerInner .pozadi {
+    position: absolute;
+    top: -80px;
+    width: 100%;
+    height: 312px;
+    background: url("../svg/prefooter.svg");
+    background-size: 100% 100%;
+    z-index: -1; }
+  .footerInner .prvniCast p {
+    font-family: AveMedium;
+    font-size: 23px;
+    color: #848484;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 10px; }
+  .footerInner .prvniCast .hashtag {
+    font-family: AveHeavy;
+    font-size: 33px;
+    color: #151515;
+    letter-spacing: 0;
+    text-align: center;
+    margin: 0;
+    margin-bottom: 30px; }
+  .footerInner .prvniCast .socialMedia {
+    text-align: center;
+    margin: 0; }
+    .footerInner .prvniCast .socialMedia a {
+      display: inline-block;
+      vertical-align: middle;
+      margin: 0 16px; }
+      .footerInner .prvniCast .socialMedia a img {
+        width: 36px; }
+      .footerInner .prvniCast .socialMedia a:last-child img {
+        width: 41px; }
+
+.druhaCastFooter {
+  background-image: linear-gradient(180deg, #3D3D3D 0%, #1A1A1A 100%);
+  z-index: -10000;
+  padding-top: 100px;
+  width: 100%; }
+  .druhaCastFooter p {
+    font-family: AveHeavy;
+    font-size: 16px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 15px; }
+  .druhaCastFooter a {
+    font-family: AveMedium;
+    font-size: 13px;
+    color: #959595;
+    letter-spacing: 0;
+    text-align: center;
+    width: 182px;
+    margin: 0 auto;
+    display: block;
+    padding-bottom: 40px; }
+
+.jumbotron {
+  background: #fff;
+  position: relative;
+  pointer-events: none; }
+  .jumbotron .jumboText h1 {
+    font-family: AveHeavy;
+    font-size: 33px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    max-width: 308px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 25px; }
+  .jumbotron .jumboText h2 {
+    font-family: AveMedium;
+    font-size: 16px;
+    color: #949494;
+    letter-spacing: 0;
+    text-align: center;
+    max-width: 290px;
+    margin: 0 auto;
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 45px; }
+  .jumbotron .video {
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    display: block; }
+    .jumbotron .video img {
+      width: 100%; }
+  .jumbotron .konec {
+    width: calc(100%);
+    position: absolute;
+    bottom: calc(-110px + 1px); }
+
+#jaktofunguje {
+  position: relative;
+  padding-top: 109px; }
+  #jaktofunguje .pozadi {
+    position: absolute;
+    top: 0;
+    z-index: -100;
+    width: 100%;
+    height: 342px;
+    background: url("../svg/jaktofunguje.svg");
+    background-size: 100% 100%; }
+  #jaktofunguje h2 {
+    font-family: AveHeavy;
+    font-size: 23px;
+    color: #FFFFFF;
+    letter-spacing: 0;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 30px; }
+  #jaktofunguje .bublina {
+    background: #FFFFFF;
+    box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    max-width: 360px; }
+    #jaktofunguje .bublina .prvniCast a {
+      display: none; }
+    #jaktofunguje .bublina .prvniCast ul {
+      padding: 0;
+      margin: 0; }
+      #jaktofunguje .bublina .prvniCast ul li {
+        list-style: none;
+        display: block;
+        margin: 0 auto;
+        padding: 18px 0;
+        text-align: center; }
+        #jaktofunguje .bublina .prvniCast ul li:first-child {
+          padding-top: 30px; }
+        #jaktofunguje .bublina .prvniCast ul li:last-child {
+          padding-bottom: 30px; }
+        #jaktofunguje .bublina .prvniCast ul li img {
+          max-width: 40px;
+          max-height: 40px;
+          display: inline-block;
+          vertical-align: middle; }
+        #jaktofunguje .bublina .prvniCast ul li span {
+          font-family: AveMedium;
+          font-size: 19.33px;
+          color: #1C1C1C;
+          letter-spacing: 0;
+          line-height: 31.81px;
+          display: inline-block;
+          vertical-align: middle;
+          margin-left: 30px;
+          max-width: 230px;
+          text-align: left; }
+    #jaktofunguje .bublina .druhaCast {
+      display: none; }
+
+#koliktostoji h2 {
+  font-family: AveHeavy;
+  font-size: 23px;
+  color: #151515;
+  letter-spacing: 0;
+  text-align: center;
+  margin: 0 auto;
+  display: block;
+  max-width: 290px;
+  margin-top: 50px;
+  margin-bottom: 20px; }
+#koliktostoji p {
+  font-family: AveMedium;
+  font-size: 16px;
+  color: #949494;
+  letter-spacing: 0;
+  text-align: center;
+  max-width: 290px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: 40px; }
+#koliktostoji ul {
+  padding: 0; }
+  #koliktostoji ul li {
+    background: #FFFFFF;
+    box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+    border-radius: 10px;
+    list-style: none;
+    width: calc(100% - 40px);
+    margin: 0 auto;
+    max-width: 360px;
+    margin-bottom: 40px; }
+    #koliktostoji ul li .malyNadpis {
+      font-family: AveBlack;
+      font-size: 12px;
+      color: #AAAAAA;
+      letter-spacing: 2.67px;
+      text-align: center;
+      width: 100%;
+      padding-top: 25px;
+      display: block; }
+    #koliktostoji ul li h3 {
+      font-family: AveHeavy;
+      font-size: 29px;
+      color: #000000;
+      letter-spacing: 0;
+      text-align: center;
+      margin-top: 5px;
+      margin-bottom: 20px; }
+    #koliktostoji ul li p {
+      font-family: AveMedium;
+      font-size: 16px;
+      color: #949494;
+      letter-spacing: 0;
+      text-align: center;
+      width: calc(100% - 60px);
+      max-width: none;
+      margin-bottom: 20px; }
+    #koliktostoji ul li .cena {
+      font-family: AveBlack;
+      font-size: 38px;
+      color: #1A1A1A;
+      letter-spacing: 0;
+      text-align: center;
+      margin: 0 auto;
+      display: block;
+      margin-bottom: 21px; }
+      #koliktostoji ul li .cena span {
+        font-size: 25px;
+        font-family: AveBlack;
+        color: #1A1A1A; }
+    #koliktostoji ul li a .registrace {
+      background-image: linear-gradient(153deg, #FF8D55 0%, #E9214B 100%);
+      border-bottom-left-radius: 10px;
+      border-bottom-right-radius: 10px;
+      padding-top: 11px;
+      padding-bottom: 12px; }
+      #koliktostoji ul li a .registrace .registraceText {
+        font-family: AveMedium;
+        font-size: 20px;
+        color: #FFFFFF;
+        letter-spacing: 0;
+        text-align: center;
+        display: block; }
+
+#onas h2 {
+  margin-top: 50px;
+  font-family: AveHeavy;
+  font-size: 23px;
+  color: #000000;
+  letter-spacing: 0;
+  text-align: center;
+  margin-bottom: 15px; }
+#onas p {
+  font-family: AveMedium;
+  font-size: 16px;
+  color: #949494;
+  letter-spacing: 0;
+  text-align: center;
+  max-width: 290px;
+  margin: 0 auto;
+  display: block;
+  margin-bottom: calc(40px - 11px); }
+#onas .team {
+  width: calc(100% - 40px + (18px * 2));
+  margin: 0 auto;
+  display: block; }
+  #onas .team ul {
+    padding: 0;
+    margin: 0;
+    text-align: center; }
+    #onas .team ul li {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+      width: 150px;
+      margin: 11px 13px;
+      display: inline-block; }
+      #onas .team ul li img {
+        width: 100%; }
+      #onas .team ul li h3 {
+        font-family: AveHeavy;
+        font-size: 18.23px;
+        color: #000000;
+        letter-spacing: 0;
+        text-align: center;
+        margin-top: 20px;
+        margin-bottom: 4px; }
+      #onas .team ul li h4 {
+        font-family: AveMediumOblique;
+        font-size: 14.58px;
+        color: #949494;
+        letter-spacing: 0;
+        text-align: center;
+        margin: 0; }
+#onas a {
+  font-family: AveMedium;
+  font-size: 20px;
+  color: #151515;
+  letter-spacing: 0;
+  text-align: center;
+  background: #FFFFFF;
+  box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.15);
+  border-radius: 11px;
+  margin: 0 auto;
+  display: block;
+  width: 200px;
+  padding-bottom: 11px;
+  padding-top: 11px;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  z-index: 100; }
+
+#stastnekonce {
+  margin-bottom: 80px; }
+  #stastnekonce h2 {
+    font-family: AveHeavy;
+    font-size: 23px;
+    color: #000000;
+    letter-spacing: 0;
+    text-align: center;
+    margin-bottom: 35px; }
+  #stastnekonce ul {
+    padding: 0;
+    margin: 0; }
+    #stastnekonce ul li {
+      list-style: none;
+      padding: 0;
+      margin: 0 auto;
+      width: calc(100% - 40px);
+      max-width: 360px;
+      display: block;
+      margin-bottom: 35px; }
+      #stastnekonce ul li p {
+        font-family: AveMedium;
+        font-size: 16px;
+        color: #949494;
+        letter-spacing: 0;
+        text-align: center;
+        width: 100%;
+        margin-top: 20px;
+        margin-bottom: 15px; }
+      #stastnekonce ul li .podpis {
+        font-family: AveHeavy;
+        font-size: 16px;
+        color: #151515;
+        letter-spacing: 0;
+        text-align: center;
+        margin: 0; }
+      #stastnekonce ul li .fotoMazlicka {
+        background: url("../img/mazlicek.png");
+        background-position: center;
+        background-size: cover;
+        width: 100%;
+        height: 200px;
+        box-shadow: 0 6px 15px 0 rgba(0, 0, 0, 0.1);
+        border-radius: 10px;
+        margin: 0 auto;
+        display: block; }
