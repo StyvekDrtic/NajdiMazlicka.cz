@@ -1,0 +1,24 @@
+<svg width="100%" preserveAspectRatio="none" height="874px"  viewBox="0 0 400 874" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <defs>
+        <linearGradient x1="39.2084536%" y1="72.3294553%" x2="66.3681695%" y2="95.6420256%" id="linearGradient-1">
+            <stop stop-color="#FF8D55" offset="0%"></stop>
+            <stop stop-color="#E9214B" offset="100%"></stop>
+        </linearGradient>
+        <path d="M0,0 L400,0 L400,807.204766 L225.974422,854.013499 C208.960499,858.589839 191.039501,858.589839 174.025578,854.013499 L0,807.204766 L0,807.204766 L0,0 Z" id="path-2"></path>
+        <filter x="-5.9%" y="-2.5%" width="111.8%" height="105.0%" filterUnits="objectBoundingBox" id="filter-3">
+            <feOffset dx="0" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="7.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.0547421329 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="non-profit-fáze">
+            <g id="jak-to-funguje">
+                <g id="Rectangle-Copy">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-3)" xlink:href="#path-2"></use>
+                    <use fill="url(#linearGradient-1)" fill-rule="evenodd" xlink:href="#path-2"></use>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

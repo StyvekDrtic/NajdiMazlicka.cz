@@ -2656,6 +2656,7 @@ header {
   position: relative;
   display: block;
   width: calc(100% - 40px);
+  max-width: 1140px;
   margin: 0 auto;
   padding-top: 20px;
   background: #fff; }
@@ -2671,8 +2672,51 @@ header {
     float: none; }
     header .menuButton img {
       width: 30px; }
+    @media screen and (min-width: 1000px) {
+      header .menuButton {
+        display: none; } }
   header nav {
-    display: none; }
+    display: none;
+    position: absolute;
+    right: 0;
+    top: 30px; }
+    header nav ul {
+      margin: 0;
+      padding: 0;
+      display: inline-block; }
+      header nav ul li {
+        list-style: none;
+        margin: 0;
+        display: inline-block;
+        vertical-align: middle;
+        margin-right: 35px; }
+        header nav ul li a {
+          font-family: AveHeavy;
+          font-size: 12px;
+          color: #151515;
+          letter-spacing: 1.65px;
+          text-align: center;
+          text-transform: uppercase;
+          display: inline-block;
+          vertical-align: middle; }
+        header nav ul li:last-child {
+          margin: 0; }
+          header nav ul li:last-child a {
+            font-family: AveMedium;
+            font-size: 12px;
+            color: #1C1C1C;
+            letter-spacing: 1.96px;
+            text-align: center; }
+          header nav ul li:last-child img {
+            height: 20px;
+            display: inline-block;
+            vertical-align: middle;
+            padding-bottom: 1px;
+            margin-right: 13px; }
+    @media screen and (min-width: 1000px) {
+      header nav {
+        display: inline-block;
+        vertical-align: middle; } }
 
 .mobileHeader {
   box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.1);
@@ -2820,6 +2864,17 @@ header {
     margin: 0 auto;
     display: block;
     margin-top: 10px; }
+    @media screen and (min-width: 1000px) {
+      .jumbotron .jumboText h1 {
+        margin-top: 0;
+        margin-bottom: 20px;
+        font-size: 35px;
+        max-width: 350px; } }
+    @media screen and (min-width: 1200px) {
+      .jumbotron .jumboText h1 {
+        font-size: 45px;
+        margin-bottom: 30px;
+        max-width: 450px; } }
   .jumbotron .jumboText h2 {
     font-family: AveMedium;
     font-size: 16px;
@@ -2831,14 +2886,40 @@ header {
     display: block;
     margin-top: 15px;
     margin-bottom: 35px; }
+    @media screen and (min-width: 1000px) {
+      .jumbotron .jumboText h2 {
+        margin-top: 0px;
+        margin-bottom: 0px;
+        font-size: 15px; } }
+    @media screen and (min-width: 1200px) {
+      .jumbotron .jumboText h2 {
+        font-size: 17px; } }
+  @media screen and (min-width: 1000px) {
+    .jumbotron .jumboText {
+      display: inline-block;
+      vertical-align: middle;
+      margin-right: 50px; } }
   .jumbotron .video {
     width: calc(100% - 40px);
+    max-width: 550px;
     margin: 0 auto;
     display: block;
     z-index: 10;
     position: relative; }
     .jumbotron .video img {
       width: 100%; }
+    @media screen and (min-width: 1000px) {
+      .jumbotron .video {
+        display: inline-block;
+        vertical-align: middle;
+        max-width: 440px; } }
+  @media screen and (min-width: 1000px) {
+    .jumbotron .jumboWrap {
+      display: block;
+      margin: 0 auto;
+      width: fit-content;
+      margin-top: 70px;
+      padding-bottom: 30px; } }
   .jumbotron .konec {
     width: calc(100%);
     position: absolute;
@@ -2855,6 +2936,9 @@ header {
     height: 874px;
     background: url("../svg/jaktofunguje.svg");
     background-size: 100% 100%; }
+    @media screen and (min-width: 1000px) {
+      #jaktofunguje .pozadi {
+        background: url("../svg/jaktofunguje2.svg"); } }
   #jaktofunguje h2 {
     font-family: AveHeavy;
     font-size: 23px;
@@ -2872,6 +2956,18 @@ header {
     max-width: 360px; }
     #jaktofunguje .bublina .prvniCast a {
       display: none; }
+      @media screen and (min-width: 1000px) {
+        #jaktofunguje .bublina .prvniCast a {
+          display: block;
+          font-family: AveMedium;
+          font-size: 18px;
+          color: #FFFFFF;
+          letter-spacing: 0;
+          text-align: center;
+          background-image: linear-gradient(153deg, #FF8D55 0%, #E9214B 100%);
+          border-radius: 10px;
+          padding-top: 12px;
+          padding-bottom: 12px; } }
     #jaktofunguje .bublina .prvniCast ul {
       padding: 0;
       margin: 0; }
@@ -2901,8 +2997,24 @@ header {
           margin-left: 22px;
           max-width: 188px;
           text-align: left; }
-    #jaktofunguje .bublina .druhaCast {
-      display: none; }
+    @media screen and (min-width: 1000px) {
+      #jaktofunguje .bublina .prvniCast {
+        display: inline-block;
+        vertical-align: middle; } }
+    @media screen and (min-width: 1000px) {
+      #jaktofunguje .bublina {
+        max-width: none;
+        width: fit-content;
+        padding: 30px; } }
+  #jaktofunguje .druhaCast {
+    display: none;
+    margin-left: 50px; }
+    #jaktofunguje .druhaCast img {
+      height: 372px; }
+    @media screen and (min-width: 1000px) {
+      #jaktofunguje .druhaCast {
+        display: inline-block;
+        vertical-align: middle; } }
 
 #koliktostoji h2 {
   font-family: AveHeavy;
@@ -2988,6 +3100,19 @@ header {
         letter-spacing: 0;
         text-align: center;
         display: block; }
+    @media screen and (min-width: 1000px) {
+      #koliktostoji ul li {
+        display: inline-block;
+        vertical-align: middle;
+        max-width: 290px;
+        margin: 0 20px; }
+        #koliktostoji ul li:last-child {
+          margin-right: 0; }
+        #koliktostoji ul li:first-child {
+          margin-left: 0; } }
+  @media screen and (min-width: 1000px) {
+    #koliktostoji ul {
+      text-align: center; } }
 
 #onas h2 {
   margin-top: 50px;
@@ -3013,7 +3138,10 @@ header {
   display: block; }
   #onas .team ul {
     padding: 0;
-    margin: 0;
+    margin: 0 auto;
+    display: block;
+    width: 100%;
+    max-width: 500px;
     text-align: center; }
     #onas .team ul li {
       list-style: none;
@@ -3039,6 +3167,14 @@ header {
         letter-spacing: 0;
         text-align: center;
         margin: 0; }
+      @media screen and (min-width: 1000px) {
+        #onas .team ul li {
+          margin-left: 35px;
+          margin-right: 35px; } }
+    @media screen and (min-width: 1000px) {
+      #onas .team ul {
+        max-width: none;
+        width: calc(100% - 60px); } }
 #onas a {
   font-family: AveMedium;
   font-size: 20px;
@@ -3103,6 +3239,15 @@ header {
         border-radius: 10px;
         margin: 0 auto;
         display: block; }
+      @media screen and (min-width: 1000px) {
+        #stastnekonce ul li {
+          display: inline-block;
+          width: 300px; }
+          #stastnekonce ul li:nth-child(2) {
+            margin: 0 30px; } }
+    @media screen and (min-width: 1000px) {
+      #stastnekonce ul {
+        text-align: center; } }
 
 .podminkyHeader {
   width: 100%;
@@ -3111,10 +3256,18 @@ header {
     right: 20px; }
   .podminkyHeader .logo {
     margin-left: 20px; }
+  .podminkyHeader nav {
+    right: 20px; }
+  @media screen and (min-width: 1140px) {
+    .podminkyHeader {
+      border-radius: 10px;
+      margin-top: 10px;
+      box-shadow: 0 2px 15px 0 rgba(0, 0, 0, 0.05);
+      margin-bottom: 50px; } }
 
 .mistoNaText {
   width: calc(100% - 40px);
-  max-width: 500px;
+  max-width: 900px;
   margin: 0 auto;
   display: block;
   text-align: justify;

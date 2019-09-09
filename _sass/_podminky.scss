@@ -9,11 +9,22 @@
   .logo {
     margin-left: 20px;
   }
+
+  nav {
+    right: 20px;
+  }
+
+  @media screen and (min-width : 1140px) {
+    border-radius: 10px;
+    margin-top: 10px;
+    box-shadow: 0 2px 15px 0 rgba(0,0,0,0.05);
+    margin-bottom: 50px;
+  }
 }
 
 .mistoNaText {
   width: calc(100% - 40px);
-  max-width: 500px;
+  max-width: 900px;
   margin: 0 auto;
   display: block;
   text-align: justify;
