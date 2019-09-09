@@ -2995,7 +2995,7 @@ header {
           display: inline-block;
           vertical-align: middle;
           margin-left: 22px;
-          max-width: 188px;
+          max-width: 190px;
           text-align: left; }
     @media screen and (min-width: 1000px) {
       #jaktofunguje .bublina .prvniCast {
@@ -3033,7 +3033,8 @@ header {
   color: #949494;
   letter-spacing: 0;
   text-align: center;
-  max-width: 290px;
+  max-width: 360px;
+  width: calc(100% - 40px);
   margin: 0 auto;
   display: block;
   margin-bottom: 40px; }
@@ -3128,7 +3129,8 @@ header {
   color: #949494;
   letter-spacing: 0;
   text-align: center;
-  max-width: 290px;
+  max-width: 360px;
+  width: calc(100% - 40px);
   margin: 0 auto;
   display: block;
   margin-bottom: calc(40px - 11px); }
@@ -3229,8 +3231,13 @@ header {
         letter-spacing: 0;
         text-align: center;
         margin: 0; }
+      #stastnekonce ul li .fotoMazlicka1 {
+        background: url("../img/mazlicek.png"); }
+      #stastnekonce ul li .fotoMazlicka2 {
+        background: url("../img/mazlicek2.png"); }
+      #stastnekonce ul li .fotoMazlicka3 {
+        background: url("../img/mazlicek3.png"); }
       #stastnekonce ul li .fotoMazlicka {
-        background: url("../img/mazlicek.png");
         background-position: center;
         background-size: cover;
         width: 100%;
@@ -3242,7 +3249,8 @@ header {
       @media screen and (min-width: 1000px) {
         #stastnekonce ul li {
           display: inline-block;
-          width: 300px; }
+          width: 300px;
+          vertical-align: top; }
           #stastnekonce ul li:nth-child(2) {
             margin: 0 30px; } }
     @media screen and (min-width: 1000px) {
