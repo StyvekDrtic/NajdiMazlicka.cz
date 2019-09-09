@@ -2785,7 +2785,8 @@ header {
   background-image: linear-gradient(180deg, #3D3D3D 0%, #1A1A1A 100%);
   z-index: -10000;
   padding-top: 100px;
-  width: 100%; }
+  width: 100%;
+  padding-bottom: 50px; }
   .druhaCastFooter p {
     font-family: AveHeavy;
     font-size: 16px;
@@ -2802,10 +2803,9 @@ header {
     color: #959595;
     letter-spacing: 0;
     text-align: center;
-    width: 182px;
+    width: 300px;
     margin: 0 auto;
-    display: block;
-    padding-bottom: 50px; }
+    display: block; }
 
 .jumbotron {
   background: #fff;
@@ -3103,3 +3103,21 @@ header {
         border-radius: 10px;
         margin: 0 auto;
         display: block; }
+
+.podminkyHeader {
+  width: 100%;
+  padding-bottom: 15px; }
+  .podminkyHeader .menuButton {
+    right: 20px; }
+  .podminkyHeader .logo {
+    margin-left: 20px; }
+
+.mistoNaText {
+  width: calc(100% - 40px);
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: justify;
+  margin-bottom: 150px; }
+  .mistoNaText h1 {
+    text-align: left; }

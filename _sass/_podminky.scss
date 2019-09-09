@@ -1,0 +1,25 @@
+.podminkyHeader {
+  width: 100%;
+  padding-bottom: 15px;
+
+  .menuButton {
+    right: 20px;
+  }
+
+  .logo {
+    margin-left: 20px;
+  }
+}
+
+.mistoNaText {
+  width: calc(100% - 40px);
+  max-width: 500px;
+  margin: 0 auto;
+  display: block;
+  text-align: justify;
+  margin-bottom: 150px;
+
+  h1 {
+    text-align: left;
+  }
+}
