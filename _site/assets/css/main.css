@@ -3290,6 +3290,7 @@ header {
       margin-bottom: 50px; } }
 
 .mistoNaText {
+  font-weight: normal;
   width: calc(100% - 40px);
   max-width: 900px;
   margin: 0 auto;
@@ -3298,3 +3299,6 @@ header {
   margin-bottom: 150px; }
   .mistoNaText h1 {
     text-align: left; }
+  .mistoNaText strong {
+    font-family: AveHeavy;
+    font-weight: normal; }
