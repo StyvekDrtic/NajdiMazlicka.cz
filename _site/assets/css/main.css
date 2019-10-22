@@ -3031,6 +3031,21 @@ header {
       #jaktofunguje .druhaCast {
         display: inline-block;
         vertical-align: middle; } }
+  #jaktofunguje .dodatecneInfo {
+    margin-top: 30px; }
+    #jaktofunguje .dodatecneInfo p {
+      width: calc(100% - 40px);
+      margin: 0 auto;
+      max-width: 340px;
+      font-family: AveMedium;
+      font-size: 14px;
+      color: #949494;
+      letter-spacing: 0;
+      text-align: center;
+      line-height: 28px; }
+      @media screen and (min-width: 1000px) {
+        #jaktofunguje .dodatecneInfo p {
+          max-width: 740px; } }
 
 #koliktostoji h2 {
   font-family: AveHeavy;
@@ -3053,7 +3068,8 @@ header {
   width: calc(100% - 40px);
   margin: 0 auto;
   display: block;
-  margin-bottom: 40px; }
+  margin-bottom: 40px;
+  line-height: 26px; }
 #koliktostoji ul {
   padding: 0; }
   #koliktostoji ul li {
@@ -3149,7 +3165,8 @@ header {
   width: calc(100% - 40px);
   margin: 0 auto;
   display: block;
-  margin-bottom: calc(40px - 11px); }
+  margin-bottom: calc(40px - 11px);
+  line-height: 26px; }
 #onas .team {
   width: calc(100% - 40px + (18px * 2));
   margin: 0 auto;
@@ -3239,7 +3256,8 @@ header {
         text-align: center;
         width: 100%;
         margin-top: 20px;
-        margin-bottom: 15px; }
+        margin-bottom: 15px;
+        line-height: 26px; }
       #stastnekonce ul li .podpis {
         font-family: AveHeavy;
         font-size: 16px;
