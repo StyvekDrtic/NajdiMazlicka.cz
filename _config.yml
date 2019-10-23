@@ -8,10 +8,12 @@
 # Site settings
 title: Najdi Malíčka | Hledání ztracených zvířat pomocí cílených FB kampaní
 description: Ztratil se Vám domácí mazlíček? Náš tým Vám ho pomůže najít pomocí detailně cílených kampaní na sociálních sítích.
-keywords: NajdiMazlíčka, Najdi Malíčka, ztracené zvíře, pátrání po ztracených zvířatech, pátrání, hledání, ztracený pes, ztracená kočka, registrace ztráty, psí detektiv
+keywords: NajdiMazlíčka, Najdi Malíčka, registrace ztráty, psí detektiv, ztraceni psi, ztratil se pes, ztráta kočky, hledání ztracených psů, hledáme kočku, pátrání po ztracených psech, ztracený pes, zatoulaná kočka, ztratila se kočka, hledáme psa, hledá se pes, ztráta psa, ztratila se mi kočka, hledání ztracených koček, zaběhnutý pes, zatoulaný pes, ztracené kočky, ztratil se mi pes, hledá se kočka, zaběhnutá kočka, ztracení psi
 author: palmmedia.co
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://najdimazlicka.cz" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+sass:
+    style: compressed
