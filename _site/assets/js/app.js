@@ -2,6 +2,20 @@
 
 
 
+
+
+$(".otazka h3").click(function() {
+  if ($(this).parent().hasClass("otevreno")) {
+    $(this).parent().removeClass("otevreno");
+  }
+
+  else {
+    $(this).parent().addClass("otevreno");
+  }
+});
+
+
+
 $(".menuButton").click(function() {
   $(".mobileHeader").removeClass("fadeInDown animated").removeClass("fadeOutUp animated").addClass("animated" + ' fadeInDown');
   $(".mobileHeader").toggle();
